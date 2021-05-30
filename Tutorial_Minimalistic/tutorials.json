@@ -1,0 +1,49 @@
+[
+  {
+    "name": "startup_tutorial",
+    "trigger": "startup",
+    "title": "Tutorial Compendium",
+    "pages": [
+      {
+      	"name": "welcome",
+        "text": "Welcome to Townforge, a blockchain based Norse themed emergent city simulator, with embedded RPG elements.\n\nPress >> below for an overview and quick start guide to key game mechanics, or Done to play the game right now.\nYou can always review any tutorial screen later from the options screen.",
+        "image": "Tutorial/tutorial_startup_welcome.png"
+      },
+      {
+      	"name": "blockchain",
+      	"text": "Townforge runs on a heavily modified fork of the cryptocurrency Monero. This means Townforge is decentralized, and the game is distributed among a network of peers, and all game actions are appended to the game blockchain based on consensus rules upon block discovery. The game aims to find new blocks every 30 seconds, meaning the game state progresses - on average - every 30 seconds.",
+      	"image": "Tutorial/tutorial_startup_blockchain.png"
+      },
+      {
+      	"name": "crypto",
+      	"text": "Townforge implements its own cryptocurrency, Townforge Gold (TFG). TFG is used as main means for in-game transactions, and it can be obtained by mining blocks to the blockchain, purchasing from other players or miners, or via in-game actions such as town treasury payouts.",
+      	"image": "Tutorial/tutorial_startup_crypto.png"      	
+      },
+      {
+      	"name": "wallet",
+      	"text": "In order to play, you need to create a wallet or load an existing one. This wallet is essentially your means to accessing your in-game account. Please note that due to the decentralized nature of Townforge, if you lose your wallet access, nobody can recover it for you - due to this it is essential to keep the walle secure and store its 16 word recovery mnemonic seed, preferably at a secure physical location.",
+      	"image": "Tutorial/tutorial_startup_wallet.png"
+      },
+      {
+      	"name": "concepts",
+      	"text": "It is important to understand that playing Townforge essentially consists of: the daemon, the Townforge network, and the game client. \n\n1) The daemon is your connection to the Townforge network - it will broadcast your commands, and receive current game state. \n2) The network is governed by consensus rules, that keep track that new appended blocks to the blockchains contain commands that adhere to Townforge rules. \n3) Finally, the default game client uses the open source Urho3D engine - but as an open source project, you could use any non-official client or even create your very own!",
+      	"image": "Tutorial/tutorial_startup_concepts.png"
+      },
+      {
+      	"name": "gameplay1",
+      	"text": "The persistent world of Townforge is loosely based on Norse lore, but there is no single correct way to play. You can become a city building mogul, a fervent role player, an architect, an in-game market manipulating bull, a share driven research-enterprise, and much more. The game is designed with emergence both mechanistically and aesthetically, with players driving the development of the Townforge world.",
+      	"image": "Tutorial/tutorial_startup_gameplay1.png"
+      },
+      {
+      	"name": "gameplay2",
+      	"text": "foo",
+      	"image": "Tutorial/placeholder_256x512.png"
+      },
+      {
+      	"name": "gameplay3",
+      	"text": "bar",
+      	"image": "Tutorial/placeholder_128x128.png"
+      }      
+    ]
+  }
+]
