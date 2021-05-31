@@ -36,14 +36,308 @@
       },
       {
       	"name": "gameplay2",
-      	"text": "foo",
+      	"text": "In the default game client, the main UI panel is located on the top-right corner, with ESC opening up the options. Movement happens with standard WASD-style movement, with holding right mouse button to drag camera direction. The arrow keys can be alternatively used for moving the camera. Shift will accelerate the speed of movement and rotation. Left mouse button is used for selecting terrain and blocks and interacting with the UI. Finally, buttons Q, E, Z, and C are advanced buttons in building voxels, and X is used for material selection.",
       	"image": "Tutorial/placeholder_256x512.png"
       },
       {
       	"name": "gameplay3",
-      	"text": "bar",
+      	"text": "The main game panel opens from top-right corner of the game screen contains all the accessible actions. Depending your current status (such as selected terrain), various options are greyed out or available - for example, purchasing land is available when player has a rectangular selection activated on the game terrain.",
       	"image": "Tutorial/placeholder_128x128.png"
-      }      
+      },
+      {
+      	"name": "time",
+      	"text": "All game actions are stored in blocks in the blockchain. These blocks that contain the game transactions are automatically set so that on average every 30 seconds a new block is appended to the blockchain. Hence, the game progresses in short bumps. In addition to individual game blocks advancing the game state, every 720th block is a special game tick, during which heavier game logic is resolved and heavier game logic is processed.",
+      	"image": ""
+    ]
+  },
+  {
+    "name": "basic_ui_calendar",
+    "trigger": "ui_calendar",
+    "title": "Townforge Calendar",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_player",
+    "trigger": "ui_player",
+    "title": "Player info",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_node",
+    "trigger": "ui_node",
+    "title": "Townforge node",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  }
+  {
+    "name": "basic_ui_commands",
+    "trigger": "ui_commands",
+    "title": "Townforge Commands",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_build",
+    "trigger": "ui_build",
+    "title": "Building",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_terrain",
+    "trigger": "ui_terrain",
+    "title": "Map terrain",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_flag",
+    "trigger": "ui_flag",
+    "title": "Lots and flags",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_city",
+    "trigger": "ui_city",
+    "title": "Cities in Townforge",
+    "pages": [
+      {
+        "name": "Cities",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Specializations",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Mayor",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Random events",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "City treasury",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "advanced_time",
+    "trigger": "na_trigger_",
+    "title": "Time in Townforge",
+    "pages": [
+      {
+        "name": "Connection to real time",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Individual block progression",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Game tick progression",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Years and runic cycles",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },  
+  {
+    "name": "advanced_time",
+    "trigger": "na_trigger_",
+    "title": "Survivalism and upkeep",
+    "pages": [
+      {
+        "name": "Food",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Warmth",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Taxation",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Other supplies",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },   {
+    "name": "advanced_rpg",
+    "trigger": "na_trigger_",
+    "title": "RPG elements",
+    "pages": [
+      {
+        "name": "Levels",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Attributes",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Badges",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "TF scripting",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "advanced_economy",
+    "trigger": "na_trigger_",
+    "title": "Economy model in Townforge",
+    "pages": [
+      {
+        "name": "Shares",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Dev fund",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Prestige payouts",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Dev fund",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Monetization",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "advanced_items",
+    "trigger": "na_trigger_",
+    "title": "Items",
+    "pages": [
+      {
+        "name": "Hard-coded items",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Custom items by game",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Custom items by players",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "IPFS",
+        "text": "",
+        "image": ""
+      }
     ]
   }
 ]
