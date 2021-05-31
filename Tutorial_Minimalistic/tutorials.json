@@ -48,12 +48,30 @@
       	"name": "time",
       	"text": "All game actions are stored in blocks in the blockchain. These blocks that contain the game transactions are automatically set so that on average every 30 seconds a new block is appended to the blockchain. Hence, the game progresses in short bumps. In addition to individual game blocks advancing the game state, every 720th block is a special game tick, during which heavier game logic is resolved and heavier game logic is processed.",
       	"image": ""
+      }
     ]
   },
   {
     "name": "basic_ui_calendar",
     "trigger": "ui_calendar",
     "title": "Townforge Calendar",
+    "pages": [
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "basic_ui_compass",
+    "trigger": "ui_compass",
+    "title": "Compass and Coordinates",
     "pages": [
       {
         "name": "",
@@ -100,7 +118,7 @@
         "image": ""
       }
     ]
-  }
+  },
   {
     "name": "basic_ui_commands",
     "trigger": "ui_commands",
@@ -229,7 +247,7 @@
     ]
   },  
   {
-    "name": "advanced_time",
+    "name": "advanced_survivalism",
     "trigger": "na_trigger_",
     "title": "Survivalism and upkeep",
     "pages": [
@@ -239,22 +257,177 @@
         "image": ""
       },
       {
+        "name": "Crop cycle",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Agricultural building type",
+        "text": "",
+        "image": ""
+      },      
+      {
+        "name": "Vegetables",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Grain",
+        "text": "",
+        "image": ""
+      },   
+      {
+        "name": "Sowing",
+        "text": "",
+        "image": ""
+      },   
+      {
+        "name": "Harvesting",
+        "text": "",
+        "image": ""
+      },   
+      {
+        "name": "Meat and salted meat",
+        "text": "",
+        "image": ""
+      },   
+      {
+        "name": "Moose and bear populations",
+        "text": "",
+        "image": ""
+      },     
+      {
+        "name": "Food spoilage",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Food points",
+        "text": "",
+        "image": ""
+      },       
+      {
         "name": "Warmth",
         "text": "",
         "image": ""
       },
       {
-        "name": "Taxation",
+        "name": "Sources of firewood",
         "text": "",
         "image": ""
       },
       {
-        "name": "Other supplies",
+        "name": "Heating points",
+        "text": "",
+        "image": ""
+      },      
+      {
+        "name": "Wood chopping",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Temperature and geothermal heating",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Other upkeep consumables such as labour",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Stability and building decay",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Increased expenses for unused land",
         "text": "",
         "image": ""
       }
     ]
-  },   {
+  },   
+  {
+    "name": "advanced_mechanics",
+    "trigger": "na_trigger_",
+    "title": "Additional mechanics",
+    "pages": [
+      {
+        "name": "Research",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Lot size limitations",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Economical power",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Wood production",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Stone production",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Gemstones",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Labour production",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Invitation codes and discounts",
+        "text": "",
+        "image": ""
+      }   
+    ]
+  },   
+  {
+    "name": "advanced_communication",
+    "trigger": "na_trigger_",
+    "title": "Communication",
+    "pages": [
+      {
+        "name": "In-game chat",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "IRC",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Forums and official website",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Wiki, Twitter and Reddit",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Other sources",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },   
+  {
     "name": "advanced_rpg",
     "trigger": "na_trigger_",
     "title": "RPG elements",
@@ -278,6 +451,11 @@
         "name": "TF scripting",
         "text": "",
         "image": ""
+      },
+      {
+        "name": "Live events",
+        "text": "",
+        "image": ""
       }
     ]
   },
@@ -286,6 +464,21 @@
     "trigger": "na_trigger_",
     "title": "Economy model in Townforge",
     "pages": [
+      {
+        "name": "Trade deals",
+        "text": "",
+        "image": ""
+      },      
+      {
+        "name": "Infinite supply",
+        "text": "",
+        "image": ""
+      },      
+      {
+        "name": "Land purchases and taxation",
+        "text": "",
+        "image": ""
+      },      
       {
         "name": "Shares",
         "text": "",
@@ -301,6 +494,26 @@
         "text": "",
         "image": ""
       },
+      {
+        "name": "Minting and smelting",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Auctions",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Dividends",
+        "text": "",
+        "image": ""
+      },      
+      {
+        "name": "Mortgages",
+        "text": "",
+        "image": ""
+      },      
       {
         "name": "Dev fund",
         "text": "",
@@ -324,7 +537,7 @@
         "image": ""
       },
       {
-        "name": "Custom items by game",
+        "name": "Custom items generated by game",
         "text": "",
         "image": ""
       },
@@ -335,6 +548,117 @@
       },
       {
         "name": "IPFS",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Embedded TFG and recovery",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "advanced_building",
+    "trigger": "na_trigger_",
+    "title": "Building mechanics",
+    "pages": [
+      {
+        "name": "Lot typing",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Activation and deactivation",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Influence range",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Bonuses and penalties to shares",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Non-share generating lot types",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Boosts from tech and city specializations",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Repair and demolition",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "advanced_aesthetics",
+    "trigger": "na_trigger_",
+    "title": "Aesthetical building",
+    "pages": [
+      {
+        "name": "Selection tools",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Keybindings and mouse",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Importing and exporting VOX",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Assigning additional items",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Unlocking and changing materials",
+        "text": "",
+        "image": ""
+      }
+    ]
+  },
+  {
+    "name": "advanced_helpers",
+    "trigger": "na_trigger_",
+    "title": "Survivalism and upkeep",
+    "pages": [
+      {
+        "name": "Default ignore mechanics",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "GM rights",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Updating names and items",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Leaderboards",
+        "text": "",
+        "image": ""
+      },
+      {
+        "name": "Visibility for in-game and out-game transactions",
         "text": "",
         "image": ""
       }
