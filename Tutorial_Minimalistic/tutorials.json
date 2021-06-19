@@ -47,7 +47,7 @@
       {
       	"name": "time",
       	"text": "All game actions are stored in blocks in the blockchain. These blocks that contain the game transactions are automatically set so that on average every 30 seconds a new block is appended to the blockchain. Hence, the game progresses in short bumps. In addition to individual game blocks advancing the game state, every 720th block is a special game tick, during which heavier game logic is resolved and heavier game logic is processed.",
-      	"image": ""
+      	"image": "Tutorial/placeholder_128x128.png"
       }
     ]
   },
@@ -57,14 +57,18 @@
     "title": "Townforge Calendar",
     "pages": [
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Calendar wheel",
+        "text": "Townforge cycle is split into 4 seasons, which further split into game ticks (shown as the lines on the outer rim of the calendar wheel). The green outer rim portions indicates vegetable sowing and harvesting and brown indicates grain sowing and harvesting seasons. Intuitively, sowing happens in the spring, while harvesting more towards the summer and fall. The thick black line indicates discrete time progression for lighter logic when blocks are discovered, while the game ticks result in heavier game progression calculations.",
+        "image": "Tutorial/tutorial_basic_ui_calendar.png"
       },
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Temperature and details",
+        "text": "Temperature changes as a function of the seasons, affecting crops and in-game events. Further, as in-game time progresses via blocks discovered to the blockchain, certain game conditions, such as year-specific runic cycle mintable coins or time-limited story scripts, unlock and progress.",
+        "image": "Tutorial/tutorial_basic_ui_calendar2.png"
+      },
+      {
+        "name": "Annual calendar",
+        "text": "The annual Townforge consists of 4 seasons, each split into 3 stages (early, middle and late), creating 12 months. Each month is then further split into days for clarity. \n\nEach game tick is 720 blocks, and each real-life day consists of 4 game ticks. A full annual in-game cycle 720*4*7 = 20160 blocks, with an average block discovery time of 30 seconds."
       }
     ]
   },
