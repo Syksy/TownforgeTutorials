@@ -78,14 +78,14 @@
     "title": "Compass and Coordinates",
     "pages": [
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Compass",
+        "text": "For core Townforge game mechanics, the most important coordinates are the x and y coordinates. You can see the North (N) direction by aligning the red pointer towards N. The Z-axis is mainly used for aesthetic building purposes, while the X- and Y-axes impact game mechanics such as lot locations, reach to affect other lots, distance from town center etc.",
+        "image": "Tutorial/tutorial_basic_ui_compass.png"
       },
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Coordinates",
+        "text": "The coordinate system relying on x and y coordinates determine e.g. land heightmap, its properties such as fertility, price, and potential bonuses for various building types. All selections done with mouse highlight a shape on the {x,y}-plane, which can be used for land purchases, placing voxels for aesthetic building, etc.",
+        "image": "Tutorial/tutorial_basic_ui_coordinates.png"
       }
     ]
   },
@@ -95,14 +95,14 @@
     "title": "Player info",
     "pages": [
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Player",
+        "text": "Basic player information is tied to an out-of-game wallet. The player info tab shows current in-game balannce (public) as well as out-of-game balance (private). As player account is tied to a wallet file, this is essentially the login method to the game. \n\nFurther player-specific information can be opened by pressing the ?-symbol for more details; these further details contain for example the item inventory, bio, discoveries, level, attributres, and achievements by the player. It is important to understand that all this in-game information is public to other Townforge players at all times.",
+        "image": "Tutorial/tutorial_basic_ui_player.png"
       },
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Wallet",
+        "text": "Upon starting the game, player is prompted to create a wallet file. Alternatively, an existing wallet file can be created. A wallet exists out of game, and will require 1 Townforge gold deposit to create an in-game account tied to it. The wallet files end in suffix .keys; additionally, a cache file without a suffix is created, and for troublehooting purposes deletion of this file may sometimes be necessary. \n\nTake good care of your wallet file, as it is a key component of your authentication!",
+        "image": "Tutorial/tutorial_basic_ui_wallet.png"
       }
     ]
   },
@@ -112,14 +112,14 @@
     "title": "Townforge node",
     "pages": [
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Node",
+        "text": "In order to play Townforge, you need to have an up-to-date blockchain, since it stores all game actions and appends new actions to it as they mined as blocks. In order to have a fully functional game, make sure to be fully synced to the network. Due to the decentralized nature of Townforge, you may sometimes find disconnected from the main blockchain, which may result in loss of game actions or even spurious game state. As the expected block discovery is 30 seconds, you can keep track of approximate block height the current game ought to be at.",
+        "image": "Tutorial/tutorial_basic_ui_node.png"
       },
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Mining and daemon",
+        "text": "Solving computational problems for appending new blocks to the blockchain is called mining, and this is highly encouraged. Townforge ought to be launched together with its daemon, which handles communication with the rest of the network, but also allows mining. Mining is optional however, as it can computationally intensive. Townforge supports merge-mining with the prominent privacy coin Monero, and merge-mining both strengthens both networks and makes the miner eligible for rewards from cryptocurrencies.\n\nThe daemon launches by default if Townforge main executable detects that it is not running, but it is possible to disable this from the options and run e.g. a custom remote node.",
+        "image": "Tutorial/tutorial_basic_ui_mining.png"
       }
     ]
   },
@@ -146,14 +146,19 @@
     "title": "Building",
     "pages": [
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Lot purchase",
+        "text": "In order to create functional buildings, the player must purchase land from a city of interest. The purchased lots may not overlap with existing lots and the player must have enough money to purchase the land. Keep in mind that owning the land will immediately start requiring land tax, even if there is no building on the lot. Lots may be reshaped, sold, and auctioned, with some limitations applying after a lot has been typed to a building type.",
+        "image": "Tutorial/tutorial_basic_ui_landpurchase.png"
       },
       {
-        "name": "",
-        "text": "",
-        "image": ""
+        "name": "Building typing",
+        "text": "In order to make use of land, it has to be typed. This involves choosing a building type (such as agricultural, residential, crafts, etc), and its economical power (EP). EP will scale the building up in its shares or products, but require more expensive materials. After choosing the building type and EP, and if the required material needs can be fulfilled from the inventory of the player, the lot will get typed. \n\nBuildings are activated and inactivated at game ticks, so the newly built building will have its first activation check on the next game tick. Note that several building types have preconditions in order to become active, or boost each other for being within influence range of favorable building types.",
+        "image": "Tutorial/tutorial_basic_ui_landpurchase.png"
+      },
+      {
+        "name": "Building sculpting",
+        "text": "Typed buildings can also be built aesthetically. Note that buildings do not require the voxel-based building aesthetics in order to function, but lots will require a minimum set of materials even if they have been typed but have not had their voxels placed. Aesthetical buildinging is encouraged, even beyond the minimum limits of required materials for a building type. \n\nSome default key bindings essential for aesthetical building are\n-Q and E for adding or removing individual voxels\n-Z and C for adding or removing voxels at current selection\n-X for material selection, with horizontal for different materials and vertical for variations in material textures. \n\nAfter the building is ready, player ought to press Approve-button to send the planned building to be mined into the blockchain as horizontal slices. These voxel-based buildings can be imported and exported in VOX format for user convenience; for example, trees and other replicated assets are easiest to build when imported.",
+        "image": "Tutorial/tutorial_basic_ui_landsculpting.png"
       }
     ]
   },
